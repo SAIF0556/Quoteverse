@@ -1,0 +1,45 @@
+.card {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  margin-left: 5%;
+  border: 0.1px solid;
+  padding: 20px;
+}
+
+.user-icon {
+  margin-right: 16px; /* Adjust the margin as needed */
+}
+
+.user-icon-img {
+  width: 50px; /* Adjust the width of the user icon as needed */
+  height: 50px; /* Adjust the height of the user icon as needed */
+  border-radius: 50%; /* To make it a circle */
+}
+
+.content {
+  display: flex;
+  flex-direction: column; /* Items in the content section will be in a column */
+}
+
+.user-full-name {
+  text-align: left;
+  margin-bottom: 2px; /* Add some space below the user's full name */
+}
+
+.quote {
+  margin-bottom: 10px; /* Add space below the quote */
+  margin-top: 3px;
+}
+
+.icon-section {
+  display: flex;
+  gap: 8px; /* Add space between the icons */
+}
+
+.tag {
+  margin-right: 8px; /* Add space between tags */
+}
+
+.tags-section {
+  display: flex;
+}

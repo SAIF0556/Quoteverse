@@ -1,0 +1,40 @@
+/* LeftSection.css */
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.user-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.user-details {
+  text-align: left;
+}
+
+.full-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.username {
+  font-size: 1em;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.about-user {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.likes {
+  font-size: 1em;
+  color: #333;
+}
